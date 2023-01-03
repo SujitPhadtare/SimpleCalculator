@@ -11,8 +11,41 @@ button{
     padding: ;
 } */
 
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.container{
+    background-color: aqua; 
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
+
 .btn{
     border-radius: 10px;
-    font-size: x-large;
-    box-shadow: 10px;
+    font-size: xx-large;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 5px;
+    width: 65px;
+    cursor: pointer;
+}
+
+/* .row-input{
+    margin: 0px;
+    width: 0px;
+} */
+
+.input{
+    width: 250px;
+    padding: 15px 25px;
+    font-size: xx-large;
+    margin: 5px 0px;
+    border-radius: 10px;
 }

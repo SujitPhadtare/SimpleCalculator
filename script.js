@@ -6,12 +6,11 @@ Array.from(buttons).forEach((button) => {
         console.log(ev.value)
         if (ev.value == 'AC') {
             string = '';
-        } else if (ev.value == '=' || ) {
+        } else if (ev.value == '=') {
             string = eval(string);
         } else {
             string = string + ev.value;
         }
         document.querySelector('input').value = string;
-
     })
 }) 

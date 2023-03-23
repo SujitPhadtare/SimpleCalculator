@@ -59,3 +59,12 @@ h1 {
 #equals {
     width: 185px;
 }
+
+.marq{
+    background-color: antiquewhite;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin: 0px;
+}
